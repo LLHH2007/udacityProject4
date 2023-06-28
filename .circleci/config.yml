@@ -37,7 +37,7 @@ jobs:
           name: install dependencies
           command: |
             cd project-ml-microservice-kubernetes
-            .~/devops/bin/activate
+            source ~/.devops/bin/activate
             make install
       - save_cache:
           paths:
@@ -49,7 +49,7 @@ jobs:
           name: run tests
           command: |
             cd project-ml-microservice-kubernetes
-            .~/devops/bin/activate
+            source ~/.devops/bin/activate
             make test
       # run lints!
       - setup_remote_docker
@@ -57,5 +57,5 @@ jobs:
           name: run lint
           command: |
             cd project-ml-microservice-kubernetes
-            .~/devops/bin/activate
+            source ~/.devops/bin/activate
             make lint
