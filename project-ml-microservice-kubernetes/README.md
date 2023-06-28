@@ -1,6 +1,5 @@
 #GET_PASSES_THIS_REPO_UDACITY_PLEASE
-[[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)]
-https://app.circleci.com/pipelines/github/LLHH2007/udacityProject4
+[![donggiangthai](https://circleci.com/gh/LLHH2007/udacityProject4.svg?style=svg)](https://app.circleci.com/pipelines/github/LLHH2007/udacityProject4)
 
 ## Project Overview
 
