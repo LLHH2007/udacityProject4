@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+error: failed to create deployment: deployments.apps "project-ml-microservice-kubernetes" already exists
+NAME                                                READY   STATUS    RESTARTS      AGE
+project-ml-microservice-kubernetes-7f978c8c-mhqbx   1/1     Running   1 (10h ago)   10h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+make_prediction.sh run:
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
